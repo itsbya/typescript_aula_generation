@@ -1,6 +1,5 @@
 4
 import leia = require('readline-sync');
-import Stack = require('./Stack');
 
 interface stackInterface<Type> {
 
@@ -22,7 +21,7 @@ interface stackInterface<Type> {
 
 }
 
- class Stack<Type> implements stackInterface<Type> {
+ export class Stack<Type> implements stackInterface<Type> {
 
     private StackData: Array<Type> = [];
 
@@ -118,5 +117,5 @@ interface stackInterface<Type> {
 
 }
 
-export = Stack;
+
  

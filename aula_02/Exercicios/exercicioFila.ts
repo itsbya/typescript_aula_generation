@@ -1,5 +1,5 @@
 import leia = require("readline-sync");
-import Queue = require("../Queue");
+import Queue = require("../fila/Queue");
 
 const filaClientes = new Queue<string>();
 let opcao: number = -1;

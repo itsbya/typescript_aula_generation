@@ -1,5 +1,5 @@
 import leia = require("readline-sync");
-import Stack = require("../Stack");
+import Stack = require("./Stack");
 
 const pilhaLivros = new Stack<string>();
 let opcao: number = -1;
